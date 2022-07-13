@@ -1,0 +1,220 @@
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+    padding: 0;
+}
+
+
+
+/* ===============================
+        common css start
+================================== */
+.button{
+    padding: 14px 28px;
+    background: #FD5F36;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-top: 40px;
+}
+/* ===============================
+        common css end
+================================== */
+
+
+/* ===================================
+            navbar start
+====================================== */
+nav{
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+}
+
+.navbar__item{
+    margin-left: 30px;
+    position: relative;
+}
+
+.navbar__item--margin{
+    margin-right: 125px;
+}
+
+.nabvar__link{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff !important;
+    
+}
+
+.nabvar__link--button{
+    background: #fff !important;
+    padding: 14px 28px !important;
+    border-radius: 5px;
+    color: #000 !important;
+}
+
+.navbar__link--font{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nabvar__link i{
+    margin-left: 8px;
+}
+
+
+.navbar__drop {
+    position: absolute;
+    top: 72px;
+    left: -20px;
+    background: #000;
+    width: 130px;
+    padding: 20px 20px 20px 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    transform: rotateX(-90deg);
+    transform-origin: top left;
+    transition: .4s;
+}
+
+.navbar__dropitem{
+    margin: 10px 0;
+}
+
+.navbar__droplink{
+    color: #fff;
+    transition: .4s;
+}
+
+.navbar__droplink:hover{
+    color: #52C5B6;
+}
+
+.navbar__item:hover .navbar__drop{
+    transform: rotateX(0);
+}
+
+/* ===================================
+            navbar end
+====================================== */
+
+/* ===================================
+            banner start
+====================================== */
+#bannerPart{
+    background: #30344E;
+    position: relative;
+    overflow: hidden;
+    padding-top: 201px;
+    padding-bottom: 92px;
+}
+
+.bannerPart__heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    max-width: 644px;
+    line-height: 74px;
+    letter-spacing: -1%;
+}
+
+.bannerPart__text{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    max-width: 540px;
+    line-height: 32px;
+    margin-top: 24px;
+}
+
+.bannerPart__question{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    
+}
+
+.bannerPart__signup{
+    font-weight: 700;
+    color: #52C5B6;
+    display: inline-block;
+    margin-top: 50px;
+    position: relative;
+}
+
+.bannerPart__shape{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(50% - 89px);
+}
+
+.bannerPart__arrow {
+    position: absolute;
+    top: -75px;
+    right: -39px;
+    animation: updown .8s infinite linear alternate;
+}
+
+@keyframes updown{
+    from{
+        top: -80px;
+    }to{
+        top: -75px;
+    }
+}
+
+.bannerShape__rightRound{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: -75px;
+    animation: rotate 5s infinite linear ;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+
+
+.bannerShape__innerRound {
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 63px;
+    left: -12px;
+}
+
+.bannerPart__human{
+    position: absolute;
+    top: 17px;
+    right: 0;
+}
+/* ===================================
+            banner end
+====================================== */
