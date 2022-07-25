@@ -23,6 +23,20 @@ ul,ol{
     display: inline-block;
     margin-top: 40px;
 }
+
+.title h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FD5F36;
+}
+
+.title h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #30344E;
+}
 /* ===============================
         common css end
 ================================== */
@@ -216,4 +230,50 @@ nav{
 }
 /* ===================================
             banner end
+====================================== */
+/* ===================================
+            about start
+====================================== */
+#aboutPart{
+    margin-top: 130px;
+}
+
+.aboutPart__details{
+    margin-left: 67px;
+}
+
+.aboutPart__subheading{
+    margin-top: 85px;
+}
+
+.aboutPart__para{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #5B5F77;
+    margin-top: 20px;
+}
+
+.aboutPart__listitem{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #5B5F77;
+    margin-top: 20px;
+}
+
+.aboutPart__icon{
+    width: 24px;
+    height: 24px;
+    background: #DCF3F0;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+
+}
+
+/* ===================================
+            about end
 ====================================== */
